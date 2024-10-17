@@ -27,7 +27,7 @@ button.Parent = frame
 
 button.MouseButton1Click:Connect(function()
     local VirtualInputManager = game:GetService("VirtualInputManager")
-    local keyCode = Enum.KeyCode.LeftControl
+    local keyCode = Enum.KeyCode.RightControl
 
     VirtualInputManager:SendKeyEvent(true, keyCode, false, game)
     wait(0.1)
